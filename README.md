@@ -1,6 +1,4 @@
-# Water Quality Prediction using Machine Learning
-
-## Project
+## Project (Water Quality)
 
 This project predicts whether water is safe to drink using Machine Learning.
 
