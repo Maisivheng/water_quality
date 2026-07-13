@@ -33,7 +33,6 @@ from sklearn.metrics import (
     roc_auc_score
 )
 
-
 # =====================================
 # Create Image Folder
 # =====================================
@@ -41,13 +40,11 @@ from sklearn.metrics import (
 if not os.path.exists("images"):
     os.makedirs("images")
 
-
 # =====================================
 # Load Dataset
 # =====================================
 
 df = pd.read_csv("data/water_potability.csv")
-
 
 print("="*50)
 print("First 5 Rows")
@@ -55,13 +52,11 @@ print("="*50)
 
 print(df.head())
 
-
 print("="*50)
 print("Dataset Shape")
 print("="*50)
 
 print(df.shape)
-
 
 print("="*50)
 print("Dataset Information")
